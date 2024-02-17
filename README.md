@@ -32,9 +32,7 @@ This repository contains files related to my project on Image Caption Generation
    ├── Glove<br>
    │   └── glove.6B.300d.txt<br>
    ├── GreedyCaption.py<br>
-   ├── gui.py<br>
-   ├── gui_sub.py<br>
-   ├── gui_sub.py<br>
+   ├── app.py
    ├── ImageFeature_extraction.py<br>
    ├── images<br>
    │   ├── 101654506_8eb26cfb60.jpg<br>
@@ -88,32 +86,17 @@ $ python3 training.py
 *Test model*
 --------------------------
 ```
-$ python3 gui.py
+$ python3 app.py
 
 this gui is made using python Tkinter package 
 ```
 
 ## Testing The Model
 ---
-model can be tested using below command after clonning the repository
-```
-$ python3 gui.py
+
 
 ```### interface result
 command:-
      python -m flask run
 
-*Test Results*
---------------
-When you run the gui.py using above command it will show you welcome screen and will ask you to choose the image from your local directory. <br>
-![alt text](https://github.com/udaram/Image-Caption-Generator/blob/master/TestResults/Screenshot%20from%202019-09-11%2014-38-26.png)
-<br>
-Here you can choose the Algorithm which you want to use to predict/generate a caption for chosen image.<br>
-Here, some glimpses of Best results which i have got during testing.<br>
-![alt text](https://github.com/udaram/Image-Caption-Generator/blob/master/TestResults/Screenshot%20from%202019-09-11%2013-24-39.png)
-![alt text](https://github.com/udaram/Image-Caption-Generator/blob/master/TestResults/Screenshot%20from%202019-09-11%2013-20-31.png)
-![alt text](https://github.com/udaram/Image-Caption-Generator/blob/master/TestResults/Screenshot%20from%202019-09-11%2013-23-04.png)
-![alt text](https://github.com/udaram/Image-Caption-Generator/blob/master/TestResults/Screenshot%20from%202019-09-11%2013-19-46.png)
-![alt text](https://github.com/udaram/Image-Caption-Generator/blob/master/TestResults/Screenshot%20from%202019-09-11%2013-25-17.png)
-![alt text](https://github.com/udaram/Image-Caption-Generator/blob/master/TestResults/Screenshot%20from%202019-09-11%2014-12-09.png)
 
